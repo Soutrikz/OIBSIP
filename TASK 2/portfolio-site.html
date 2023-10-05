@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>Soutrik Roy Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        000
+    }
+
+    body {
+        background-color: rgba(101, 233, 127, 0.763);
+        color: rgb(255, 254, 255);
+        font-family: 'poppins', sans-serif;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(31, 145, 59);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+        justify-content: space-around;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(246, 243, 243);
+    }
+
+    nav ul li a:hover {
+        color: aliceblue;
+    }
+
+    main hr {
+
+        border: 0;
+        background: #111012;
+        height: 2px;
+        margin: 40px;
+
+    }
+
+    .left {
+        font-size: 2rem;
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-around;
+        margin: 80px;
+    }
+
+    .first>div {
+        width: 30%;
+    }
+
+    .leftSection {
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .bio {
+        color: rgba(132, 48, 6, 0.63);
+        justify-content: flex-start;
+        font-size: 1.5rem;
+        margin: 20%;
+        width: 100%;
+    }
+
+    .rightSection {}
+
+    .rightSection img {
+        width: 100%;
+
+    }
+
+    .green {
+        color: rgb(93, 5, 246);
+    }
+
+    #element {
+        color: rgb(93, 5, 246);
+    }
+
+    .second {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+
+    .second .box {
+        background: #0b0b0b;
+        width: 80vw;
+        height: 2px;
+        margin: 20px 0;
+    }
+
+    .second .content {
+        margin: 30px 20px;
+        font-size: 1.5rem;
+    }
+
+    .second .dlresme {
+        display: inline-flex;
+        background: #db04fa;
+        justify-content: center;
+        align-items: center;
+        color: rgb(14 15 16);
+        font-style: italic;
+        margin: 50px 555px;
+        font-size: larger;
+    }
+
+    .second .content span {
+        color: #8722dc;
+    }
+
+
+    .second h1 {
+        border: 1px;
+        margin: 20px 40px;
+        font-size: 3rem
+    }
+
+    .skills h1 {
+        margin: 120px 175px;
+        padding: 10px;
+        font-size: 4rem;
+    }
+
+    footer {
+        background-color: #0b0b0b;
+        
+    }
+    
+
+    .skills h1 {
+        text-align: center;
+    }
+
+    .skills h3 {
+        margin: 5px;
+    }
+
+    .skills {
+        width: 500px;
+        margin: 180px auto;
+        color: #19061c;
+        padding: 20px;
+        box-shadow: 0 14px 28px rgba(132, 48, 6, 0.63), 0 10px 10px rgba(243, 139, 48, 0.763);
+    }
+
+    .skills li {
+        margin: 20px 0;
+        padding: 10px;
+    }
+
+    .skills .bar {
+        background: rgb(235, 232, 240);
+        display: block;
+        height: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(132, 48, 6, 0.12), 0 1px 2px rgba(243, 139, 48, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+    }
+
+    .skills .bar:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(132, 48, 6, 0.63);
+    }
+
+    .skills .bar span {
+        height: 20px;
+        float: left;
+        background: linear-gradient(135deg, rgb(110, 4, 68)0%, rgb(239, 38, 38)100%);
+    }
+
+    .HTML {
+        width: 90%;
+        animation: HTML 3s;
+    }
+
+    .CSS {
+        width: 40%;
+        animation: CSS 3s;
+    }
+
+    .Content {
+        width: 60%;
+        animation: Video 1s;
+    }
+
+    .Video {
+        width: 50%;
+        animation: Video 1s;
+    }
+
+    @keyframes HTML {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 90%;
+        }
+    }
+
+    @keyframes CSS {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 40%;
+        }
+    }
+
+    @keyframes Content {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 60%;
+        }
+    }
+
+    @keyframes Video {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 50%;
+        }
+    }
+
+    .comment {
+        width: 50%;
+        border: 1px solid rgb(30, 29, 29);
+        margin: 50px 0;
+        padding: 10px 20px;
+        font-family: 'poppins', sans-serif;
+        border-radius: 5px;
+        margin-left: 25%;
+        margin-top: 80px;
+        box-shadow: 0px 0px 10px 1px rgb(209, 126, 17);
+    }
+
+    .comment p {
+        text-align: left;
+        font-size: 30px;
+        color: #6a686a
+    }
+
+    .comment-form input,
+    .comment-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        outline: none;
+        font-size: 18px;
+        font-family: 'poppins', sans-serif;
+        border: 1px solid #ddd;
+        color: #777;
+
+    }
+
+    .comment-form button {
+        margin: 10px;
+        border: none;
+        background-color: #ff06ee;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 3px;
+        color: #111011;
+    }
+    .handle .icon{
+        color: #6a686a;
+        transition: color 0.2s;
+        text-decoration: none;
+        justify-content: right;
+        position: static;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 10px 10px;
+    }
+    .handle i{
+        text-align: right;
+    }
+    .handle .icon:hover{
+        color: #111011;
+    }
+    
+</style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Soutrik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">HOME</li> </a>
+                    <li> <a href="/">ABOUT</li></a>
+                    <li> <a href="/">SERVICE</li></a>
+                    <li> <a href="/">ACADEMICS</li></a>
+                    <li> <a href="/">Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftSection">Hi, I am <span class="green">Soutrik Roy</span>
+                <div>I am a </div>
+
+                <span id="element"></span>
+                <div class="bio"> BCA 3rd year student studying at Maulana Abul Kalam Azad University Of Technology
+                </div>
+
+            </div>
+
+            <div class="rightSection">
+                <img src="bg.jpeg" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="second">
+            <h1>About me </h1>
+            <div class="box"> </div>
+            <div class="content">
+                Hi, I am Soutrik Roy. I am a Computer Passionate guy having the skill of <span>Web Development, Content
+                    Writting, Video Editting etc.</span> I saw the first light on <span>11th mar,2003.</span> I
+                completed my 12th standard
+                education from "Sudarshanpur Dwarika Prasad Uchcha VidyaChakra" having Science stream. Then I joined
+                <span>"Maulana Abul Kalam Azad University Of Technology" </span>to persue the <span>BCA
+                    degree(2021-2024).</span>
+
+            </div>
+            <div class="dlresme">
+                <a href="#">My Resume</a>
+            </div>
+            <hr>
+        </section>
+        <hr style="margin: -100px 45px;
+        height: 2px;
+        width: auto;
+        padding: inherit;">
+        </hr>
+
+
+        <section class="skills">
+            <h1> <u><i>SKILLS</i></u></h1>
+            <li>
+                <h3>HTML</h3>
+            </li>
+            <span class="bar"> <span class="HTML"></span></span>
+            <li>
+                <h3>CSS</h3>
+            </li>
+            <span class="bar"> <span class="CSS"></span></span>
+            <li>
+                <h3>Content Writting</h3>
+            </li>
+            <span class="bar"> <span class="Content"></span></span>
+            <li>
+                <h3>Video Editting</h3>
+            </li>
+            <span class="bar"> <span class="Video"></span></span>
+
+
+
+        </section>
+        <hr>
+        <section class="comment">
+            <p>Leave A Comment</p>
+            <form class="comment-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea rows="5" placeholder="Comment"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+
+        <section class="handle">
+            <a href="https://facebook.com" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+
+            <a href="https://Instagram.com" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+
+            <a href="https://github.com/Soutrikz" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </section>
+    </main>
+    <footer>
+            <div class="footer-first">@copyrighted by soutrik</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Content Writter'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</body>
+
+</html>
